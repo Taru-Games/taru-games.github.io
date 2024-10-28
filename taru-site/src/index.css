@@ -213,3 +213,30 @@ body {
 .contact button:hover {
   background-color: var(--button-hover-color);
 }
+
+/* Enable smooth scrolling for the entire page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Add padding and minimum height for each section */
+section {
+  padding: 80px 20px;
+  min-height: 100vh;
+}
+
+#home {
+  background-color: var(--primary-color);
+}
+
+#about {
+  background-color: var(--secondary-color);
+}
+
+#games {
+  background-color: var(--primary-color);
+}
+
+#contact {
+  background-color: var(--secondary-color);
+}
