@@ -105,7 +105,7 @@ body {
 }
 
 /* GameCard component */
-.game-card {
+.GameCard {
   background-color: var(--secondary-color);
   border-radius: 8px;
   padding: 15px;
@@ -114,23 +114,23 @@ body {
   transition: transform 0.3s ease;
 }
 
-.game-card:hover {
+.GameCard:hover {
   transform: scale(1.05);
 }
 
-.game-card img {
-  max-width: 100%;
+.GameCard img {
+  max-width: 50px;
   height: auto;
   border-radius: 8px;
 }
 
-.game-card h2 {
+.GameCard h2 {
   margin: 15px 0 10px;
   color: var(--highlight-color);
   font-size: 1.3rem;
 }
 
-.game-card p {
+.GameCard p {
   color: var(--muted-text-color);
   font-size: 0.9rem;
 }
