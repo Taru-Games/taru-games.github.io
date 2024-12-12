@@ -6,7 +6,9 @@ import './App.css';
 function App() {
   return (
     <div className="App" style={styles.container}>
-      <h1 style={styles.text}>Taru Games is working hard to bring the next generation of automated playtesting to your games!</h1>
+      <h1 style={styles.text}>Helsinki-based startup developing AI software tools synthesizing human behavioral data.
+
+</h1>
     </div>
   );
 }
