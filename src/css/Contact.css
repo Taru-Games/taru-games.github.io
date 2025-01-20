@@ -1,0 +1,82 @@
+.ContactInfo {
+    background-color: #a98fd9;
+    color: black;
+    padding: 10px; /* Optional: Add padding inside the border */
+  }
+
+.ContactInfo h1 {
+    text-align: center;    
+    font-size: 48px;
+  }
+
+  .contacts {
+    display: flex;
+        flex-wrap: wrap;
+        gap: 20px; /* Spacing between items */
+        justify-content: center;
+  }
+  
+  .contact-card {
+    flex: 1 1 calc(50% - 20px); /* Take up 50% of the container, minus the gap */
+    max-width: 500px; /* Optional: to limit the card width */
+    background-color: #463b5d;
+    border: 1px solid #372e49;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    }
+    
+  .contact-card h3{
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: #ffffff;
+    }
+  .contact-card p{
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #d6d6d6;
+  
+    }
+  .contact-card a{
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #cfcfcf;
+  
+    }
+  
+  .contact-card img {
+    width: 300px; /* Fixed size for the image */
+    height: 390px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    }  
+
+@media (max-width: 600px) {
+  .contact-card {
+    flex: 1 1 100%; /* Stack items, each taking full width */
+  }}
+
+
+.Addy{
+    background-color: #2d253f;
+    position: relative;
+    width: 100%;
+    min-height: 24vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+
+.Addy p {
+  font-size: large;
+  margin: 5px;
+}
+.Addy svg{
+  vertical-align: bottom;
+  width: 24px; height: 24px; display: inline-block; vertical-align: bottom;
+  fill: white;
+} 
