@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Header />
       <div className='top'>
-        <p>AI-synthesized human data for game developers to drive player engagement.</p>
+        <p>AI-synthesized human data for game developers to drive player engagement!</p>
       </div>
       <main>
         <Content />
